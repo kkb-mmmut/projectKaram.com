@@ -1,0 +1,463 @@
+ 
+/*  
+    Project    : EProcurement.css
+    Created on : 3 Aug, 2019, 4:19:27 PM
+    Author     : KamelshToday
+*/
+#outer
+{
+    width:1000px;
+    min-height:1300px;
+    margin:0 auto;
+    //background-color:skyblue;
+    height: auto;
+}
+#header
+{
+    width:1000px;
+    height:150px;
+    background-color:lightgrey;    
+}
+ 
+#logo
+{
+    width:150px;
+    height:150px;
+    background-color:teal;
+    float:left;
+  -webkit-animation-name: logo; 
+  -webkit-animation-duration: 4s;  
+  animation-name:logo;
+  animation-duration:20s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+ 
+@keyframes logo 
+ {
+  0%   {background-color:teal; left:0px; top:0px;}
+  10%  {background-color:#006D83; left:200px; top:0px;}
+  20%  {background-color:#005162; left:200px; top:200px;}
+  30%  {background-color:#003641; left:0px; top:200px;}
+  40% {background-color:#00181D; left:0px; top:0px;}   
+  50%  {background-color:#00181D; left:200px; top:0px;}
+  60%  {background-color:#003641; left:200px; top:200px;}
+  70%  {background-color:#005162; left:0px; top:200px;}
+  80% {background-color:#006D83; left:0px; top:0px;}
+  90% {background-color:#006D88; left:0px; top:0px;}  
+  100% {background-color:teal; left:0px; top:0px;}
+}
+ 
+
+
+#banner
+{
+    width:850px;
+    height:150px;
+    background-color: teal;
+    float:right;
+    text-align:center;
+    color:white;
+    font-family: "League Gothic", Impact, sans-serif;
+    font-size:75px;
+    line-height: 150px;
+    text-shadow: 2px 2px 5px red;
+    -webkit-animation-name: logo; 
+  -webkit-animation-duration: 4s;  
+  animation-name:logo;
+  animation-duration:20s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  margin-bottom: 5px;   
+}
+#menu
+{
+    width:1000px;
+    height:50px;
+    //background-color:aqua; 
+    //background: rgba(00, 00, 00, 0.5);
+    margin-top:5px; 
+    //border:.01px solid grey;
+    font-family: "League Gothic", Impact, sans-serif;
+    padding-top: 1px;
+     
+}
+#menu ul
+{
+    list-style-type: none;
+    margin-top: 10px;
+}
+#menu ul li
+{
+    display: inline;
+    margin-left: 40px;
+    
+}
+#menu ul li a 
+{
+    font-size: 25px;     
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 0px 20px 0px 20px;
+    background: rgba(00, 00, 00, 0.5);
+    
+}
+
+#menu ul li a:hover
+{
+    color:red;
+    background-color: black;
+    animation-duration: 2s;
+}
+
+#slider
+{
+    width:1000px;
+    height:250px;
+    background-color: lightgrey;
+    margin-top:5px;     
+}
+#parent
+{
+    width:1000px;
+    height:700px;
+    background-color:grey;
+    margin-top:5px;
+     
+}
+#left
+{
+    width:300px;
+    height:700px;
+    background-color:teal;
+    float:left;
+}
+#notification
+{
+    width:300px;
+    height:150px;
+    border:1px solid teal;
+    
+}
+#news
+{
+    width:300px;
+    height:540px;
+    border:1px solid teal;
+     
+}
+#main
+{
+    width:700px;
+    height:700px;
+    background-color:lightseagreen;
+    float:right;  
+}
+
+#maingallary
+{
+    height: 500px;
+    width: 996px;
+    background: rgba(00, 00, 00, 0.5);
+    border:3px solid teal; 
+    margin-top: 5px;
+    font-family: "League Gothic", Impact, sans-serif;
+    color: white;
+     
+}
+#gallheading
+{
+    background-color:teal;
+    height: 70px;
+    width: 996px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 70px;
+    -webkit-animation:colorchange 20s infinite alternate;
+    text-shadow: 2px 2px 5px red;
+     
+}
+
+#footer
+{
+    width:1000px;
+    height:360px;
+    margin-top:5px;  
+    margin-bottom: 5px;
+}
+
+#footer-left
+{
+    width:333.33px;
+    height:300px;
+    background-color:teal;
+    float:left;
+    color:white;
+    font-size: 20px; 
+     
+}
+
+#footerla
+{
+    width:300px;
+    height:280px;
+    background-color:rgba(0,0,0,0.5);
+    float:left;
+    color:white;
+    font-size: 20px; 
+    margin-left:16px;
+    margin-top: 10px;
+    border-radius: 30px;
+     
+}
+
+#footer-center
+{
+    width:333.33px;
+    height:300px;
+    background-color:teal;
+    float:left;
+    color:white;
+    font-size: 20px;  
+}
+
+#footerca
+{
+    width:300px;
+    height:280px;
+    background-color:rgba(0,0,0,0.5);
+    float:left;
+    color:white;
+    font-size: 20px; 
+    margin-left:16px;
+    margin-top: 10px;
+     border-radius: 30px;
+     
+}
+
+#footer-right
+{
+    width:333.33px;
+    height:300px;
+    background-color:teal;
+    float:right;
+    color:white;
+    font-size: 20px;  
+}
+
+#footerra
+{
+    width:300px;
+    height:280px;
+    background-color:rgba(0,0,0,0.5);
+    float:left;
+    color:white;
+    font-size: 20px;
+     
+    margin-left:16px;
+    margin-top: 10px;
+     border-radius: 30px;
+     
+}
+
+
+#copyright
+{
+    width: 996px;
+    height:50px;
+    background-color:rgba(0,0,0,0.5);
+    font-family: "League Gothic", Impact, sans-serif;
+    text-align: center;
+    color: white;
+    border: 2px solid teal;
+    padding-top:310px; 
+    font-size: 25px;
+}
+
+
+//main introduction code here
+#maina
+{
+    height:100px;
+    width:700px;
+   // background-color: red;
+    
+}
+#mainb
+{
+    height:300px;
+    width:400px;
+    //background-color: yellow;
+    float:left;
+}
+#mainc
+{
+    height:300px;
+    width:300px;
+    //background-color:greenyellow;
+    float:right;
+}
+#maind
+{
+    height:300px;
+    width:700px;
+    //background-color:blue;
+    float:right;
+}
+#mainca
+{
+    height: 280px;
+    width:250px;
+    //background-color: brown;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+}
+#mainb h1
+{
+     -webkit-animation:colorchange 20s infinite alternate;
+      
+}
+
+    @-webkit-keyframes colorchange 
+    {
+      0% {
+        
+        color: white;
+      }
+      
+      10% {
+        
+        color:#64E986;
+      }
+      
+      20% {
+        
+        color:#FFCBA4;
+      }
+      
+      30% {
+        
+        color:#800517;
+      }
+      
+      40% {
+        
+        color:#FF2400;
+      }
+      
+      50% {
+        
+        color: red;
+      }
+      
+      60% {
+        
+        color:#FF2400;
+      }
+      
+      70% {
+        
+        color:#800517;
+      }
+      80% {
+     
+        color:#FFCBA4;
+      }
+      
+      90% {
+     
+        color:#64E986;
+      }
+      
+      100% {
+        
+        color:burlywood;
+      }
+    }
+    #kamlesh
+{
+     -webkit-animation:colorchange 20s infinite alternate;
+      
+}
+ 
+
+//GALLERY
+ 
+#gallphotos 
+{
+  width: fit-content;   
+  width: 996px;
+  height: 430px;
+   
+}
+.container{
+  width:310px;
+  overflow:hidden;
+  height: fit-content;
+  margin-top:15px;
+  margin-left:15px;
+  padding: 0;
+  display:block;
+  position:relative;
+  float:left;
+}
+img{
+  //width: 100%;
+  transition-duration: .3s;
+  //max-width: 100%;
+  display:block;
+  overflow:hidden;
+  cursor:pointer;
+}
+.title{
+  position:absolute;
+  display:block;
+  cursor:pointer;
+  top: 35%;
+  display: none;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 1.6em;
+  text-shadow: 1px 5px 10px black;
+  transition-duration: .3s;
+}
+.text{
+  position:absolute;
+  top: 70%;
+  cursor:pointer;
+  max-width: 80%;
+  text-align:center;
+  left: 50%;
+  text-shadow: 1px 5px 10px black;
+  font-size: 1em;
+  display:none;
+  margin-right: -50%;
+  transition-duration: .3s;
+  transform: translate(-50%, -50%) 
+}
+.container:hover img{
+  transform: scale(1.2);
+  transition-duration: .3s;
+  filter: grayscale(50%);
+  opacity: .7;
+}
+.container:hover span{
+  color:white;
+  display: block;
+  transition-duration: .3s;
+}
+
+
+
+
+ 
+ 

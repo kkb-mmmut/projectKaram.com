@@ -1,0 +1,225 @@
+ 
+/*  
+    Project    : EProcurement.css
+    Created on : 3 Aug, 2019, 4:19:27 PM
+    Author     : KamelshToday
+*/
+#outer
+{
+    width:1000px;
+    //min-height:1050px;
+    margin:0 auto;
+    //background-color:skyblue;
+    height:auto;
+}
+#header
+{
+    width:1000px;
+    height:150px;
+    background-color:lightgrey;    
+}
+ 
+#logo
+{
+    width:150px;
+    height:150px;
+    background-color:teal;
+    float:left;
+  -webkit-animation-name: logo; 
+  -webkit-animation-duration: 4s;  
+  animation-name:logo;
+  animation-duration:20s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+ 
+@keyframes logo 
+ {
+  0%   {background-color:teal; left:0px; top:0px;}
+  10%  {background-color:#006D83; left:200px; top:0px;}
+  20%  {background-color:#005162; left:200px; top:200px;}
+  30%  {background-color:#003641; left:0px; top:200px;}
+  40% {background-color:#00181D; left:0px; top:0px;}   
+  50%  {background-color:#00181D; left:200px; top:0px;}
+  60%  {background-color:#003641; left:200px; top:200px;}
+  70%  {background-color:#005162; left:0px; top:200px;}
+  80% {background-color:#006D83; left:0px; top:0px;}
+  90% {background-color:#006D88; left:0px; top:0px;}  
+  100% {background-color:teal; left:0px; top:0px;}
+}
+ 
+
+
+#banner
+{
+    width:850px;
+    height:150px;
+    background-color: teal;
+    float:right;
+    text-align:center;
+    color:white;
+    font-family: "League Gothic", Impact, sans-serif;
+    font-size:75px;
+    line-height: 150px;
+    text-shadow: 2px 2px 5px red;
+    -webkit-animation-name: logo; 
+  -webkit-animation-duration: 4s;  
+  animation-name:logo;
+  animation-duration:20s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  margin-bottom: 5px;   
+}
+#menu
+{
+    width:1000px;
+    height:50px;
+    //background-color:aqua; 
+    //background: rgba(00, 00, 00, 0.5);
+    margin-top:5px; 
+    //border:.01px solid grey;
+    font-family: "League Gothic", Impact, sans-serif;
+    padding-top: 1px;
+     
+}
+#menu ul
+{
+    list-style-type: none;
+    margin-top: 10px;
+}
+#menu ul li
+{
+    display: inline;
+    margin-left: 10px;
+    
+}
+#menu ul li a 
+{
+    font-size: 25px;     
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 0px 20px 0px 20px;
+    background: rgba(00, 00, 00, 0.5);
+    
+}
+
+#menu ul li a:hover
+{
+    color:red;
+    background-color: black;
+    animation-duration: 2s;
+}
+ 
+#parent
+{
+    width:1000px;
+    min-height:700px;
+    background-color:lightseagreen;
+    margin-top:5px;
+    height:auto;
+}
+ 
+
+#footer
+{
+    width:1000px;
+    height:50px;
+    margin-top:5px;
+    font-family: "League Gothic", Impact, sans-serif;
+    font-weight: 500;
+}
+#lfooter
+{
+    width:500px;
+    height:50px;
+    background-color:black;
+    float:left;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    line-height: 50px;
+}
+#rfooter
+{
+    width:500px;
+    height:50px;
+    background-color:teal;
+    float:right;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    line-height: 50px;
+}
+
+    @-webkit-keyframes colorchange 
+    {
+      0% {
+        
+        color: white;
+      }
+      
+      10% {
+        
+        color:#64E986;
+      }
+      
+      20% {
+        
+        color:#FFCBA4;
+      }
+      
+      30% {
+        
+        color:#800517;
+      }
+      
+      40% {
+        
+        color:#F70D1A;
+      }
+      
+      50% {
+        
+        color: red;
+      }
+      
+      60% {
+        
+        color:#F70D1A;
+      }
+      
+      70% {
+        
+        color:#800517;
+      }
+      80% {
+     
+        color:#FFCBA4;
+      }
+      
+      90% {
+     
+        color:#64E986;
+      }
+      
+      100% {
+        
+        color:burlywood;
+      }
+    }
+    #kamlesh
+{
+     -webkit-animation:colorchange 20s infinite alternate;
+      
+}
+ 
+
+  
+ 
+
+  

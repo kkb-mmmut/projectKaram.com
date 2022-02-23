@@ -1,0 +1,32 @@
+						JAVA DATABASE CONNECTIVITY(JDBC)
+_____________________________________________________________________________________________________________________________
+				FRONT END(Java Programming)----------------BACK END(MySql)
+	
+Pre-requisties for JDBC:-
+
+	Packages to be used to perform database connectivity:-
+		import java.sql.*;
+		
+		
+	Steps to perform java database connectivity:-
+		1).Load the driver of JDBC  for MySql.
+			Code Segment:-
+				Class.forName("com.mysql.jdbc.Driver");
+		2).Establish the connection between front-end(Java) and back-end(MySql).
+			Code Segment:-
+				Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb","root","");
+		3).Prepare the command:-
+			PreparedStatement ps=con.prepareStatement("sql statement");
+		4).Execute the command.
+
+PreparedStatement ps=con.prepareStatement("SQL Statement");
+ if SQL Statement is insert or delete or update then use ps.executeUpdate() method.
+and if SQL Statement is select then use ps.executeQuery() method and executeQuery() method return the object of ResultSet.
+
+
+
+
+
+
+	
+		
